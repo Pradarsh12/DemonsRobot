@@ -85,7 +85,7 @@ async def inline_help_func(__help__):
         ),
         InlineQueryResultArticle(
             title="Support",
-            description="Official Demons Support.",
+            description="Official Mittal Robot Support.",
             input_message_content=InputTextMessageContent("https://t.me/demonszxx"),
             thumb_url="https://telegra.ph/file/8435fa63d98e874f40b4b.jpg",
         ),
@@ -98,12 +98,12 @@ async def alive_function(answers):
     buttons = InlineKeyboard(row_width=2)
     bot_state = "Dead" if not await app.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main Bot", url="https://t.me/demoonsssss_bot"),
+        InlineKeyboardButton("Main Bot", url="https://t.me/Mittal_grup_bot"),
         InlineKeyboardButton("Go Inline!", switch_inline_query_current_chat=""),
     )
 
     msg = f"""
-**[Demons](https://t.me/demonszxx)**
+**[MITTAL BOTS](https://t.me/mittalbots)**
 **MainBot:** `{bot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
@@ -114,7 +114,7 @@ async def alive_function(answers):
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
-            description="Check Demons Status",
+            description="Check Bot Status",
             thumb_url="https://telegra.ph/file/5cabd37577d37b0c9763b.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
