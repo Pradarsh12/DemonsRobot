@@ -622,9 +622,9 @@ def get_help(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://telegram.dog/demonsxzz"
+                            text="Developer", url=f"https://telegram.dog/soonbotmaker0"
                         ),
-                        InlineKeyboardButton(text="Updates", url="https://nhentai.to/"),
+                        InlineKeyboardButton(text="Updates", url="https://t.me/mittalbots"),
                     ],
                     [
                         InlineKeyboardButton(
