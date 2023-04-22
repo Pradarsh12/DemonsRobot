@@ -79,7 +79,7 @@ GROUP_START_IMG = (
 PM_START_TEXT = """
 Alo bang, [👋] I'm {}.
 Powerfull Management Bot To Help In Managing Your Group.
-Maintained by : [𝗬𝗲𝘀𝗶𝗱𝗼.](https://t.me/ddodxy)
+Maintained by : [MITTAL BOTS](https://t.me/mittalbots)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 • `{}` *Users, across* `{}` *chats.*
@@ -94,14 +94,14 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text=" ➕ ｢ Kuciose Saya 」➕ ",
-            url="t.me/demoonsssss_bot?startgroup=true",
+            text=" ➕ ｢ ADD ME GROUP 」➕ ",
+            url="t.me/Mittal_grup_bot?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text=" ｢ Support 」", url="http://t.me/demonszxx"),
+        InlineKeyboardButton(text=" ｢ Developer 」", url="http://t.me/soonbotmaker0"),
         InlineKeyboardButton(text=" [❌] ", callback_data="close"),
-        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/ppppppppppppppppqq"),
+        InlineKeyboardButton(text=" ｢ Update 」", url="http://t.me/mittalbots"),
     ],
 ]
 
@@ -258,7 +258,7 @@ def start(update: Update, context: CallbackContext):
     else:
         message.reply_animation(
             GROUP_START_IMG,
-            caption="<code> Demons Online \nAktif sejak</code>: <code>{}</code>".format(
+            caption="<code> Mittal Robot Online \nP⃠r⃠a⃠d⃠a⃠r⃠s⃠h⃠</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -266,9 +266,9 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support", url=f"https://telegram.dog/demonszxx"
+                            text="Developer", url=f"https://telegram.dog/soonbotmaker0"
                         ),
-                        InlineKeyboardButton(text="Updates", url="https://nhentai.to/"),
+                        InlineKeyboardButton(text="Updates", url="https://t me/mittalbots"),
                     ],
                 ]
             ),
@@ -330,7 +330,7 @@ def help_button(update, context):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support", url="https://t.me/demonszxx"
+                                text="Support", url="https://t.me/mittalbots"
                             ),
                         ],
                     ]
@@ -385,7 +385,7 @@ def aries_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*👋Hi again!  The name's {dispatcher.bot.first_name}  \n\nA powerful group management bot built to help you manage your group easily.* "
-            f"\n\n 🔥 Join [Demonsz](https://t.me/demonszxx) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Join [MITTAL BOTS](https://t.me/mittalbots) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\n ⚡️ 》 I can restrict users."
             f"\n\n ⚡️ 》 I can greet users with customizable welcome messages and even set a group's rules."
@@ -393,8 +393,8 @@ def aries_about_callback(update, context):
             f"\n\n ⚡️ 》 I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             f"\n\n ⚡️ 》 I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             f"\n\n ⚡️ 》 I check for admins' permissions before executing any command and more stuffs"
-            f"\n\n If you have any question about *Demons*, let us know at @demonszxx."
-            f"\n\n👇 You Can Know More About *Demons* By Clicking The Below Buttons 👇",
+            f"\n\n If you have any question about *MITTAL BOTS*, let us know at @mittalbots."
+            f"\n\n👇 You Can Know More About *MITTAL BOTS* By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -892,7 +892,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@demonszxx",
+                f"@mittalbots",
                 "ɪ'ᴀᴍ ᴏɴʟɪɴᴇ ɴᴏᴡ ʙᴇʏʙɪ⚡️\n\n"
                 f"✪**Library Version :** `{telever}` \n"
                 f"✪**Telethon Version :** `{tlhver}` ",
