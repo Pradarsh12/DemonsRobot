@@ -433,7 +433,7 @@ def aries_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/demonszxx).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/mittalbots).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -459,8 +459,8 @@ def aries_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*DemonsRobot Is the redisigned version of Daisy and Saitama And Othrer for the best performance.*"
-            f"\n\nDemons source code was rewritten by @ddodxy and All Of Conrtibutor For Help Aries"
-            f"\n\nIf Any Question About aries, \nLet Us Know At @demonszxx.",
+            f"\n\nMittal Group Robot source code was rewritten by @soonbotmaker0 and All Of Conrtibutor For Help Aries"
+            f"\n\nIf Any Question About aries, \nLet Us Know At @mittalbots.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -516,9 +516,9 @@ def aries_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @demonszxx."
+            f"\n✪ If you need to ask anything about \n  this bot, Go @mittalbots."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n\nFor any kind of help, related to this bot, Join @demonszxx."
+            f"\n\nFor any kind of help, related to this bot, Join @mittalbots."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -538,10 +538,10 @@ def aries_about_callback(update, context):
             f"\n1. **first, add me to your group."
             f"\n2. **then promote me as admin and give all permissions except anonymous admin."
             f"\n3. **after promoting me, type /admincache in group to update the admin list."
-            f"\n4. **add @AssistantDEMONS to your group."
+            f"\n4. **add @mittalbots to your channel."
             f"\n5. **turn on the video chat first before start to play music.\n\n"
-            f"\n📌 **if the userbot not joined to video chat, make sure if the video chat already turned on, or you can ask Admins in @demonszxx.**\n"
-            f"\n⚡ __Powered by Demons A.I__\n",
+            f"\n📌 **if the userbot not joined to video chat, make sure if the video chat already turned on, or you can ask Admins in @mittalbots.**\n"
+            f"\n⚡ __Powered by MITTAL BOTS A.I__\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -566,7 +566,7 @@ def aries_about_callback(update, context):
             f"\n4. **/stop or /end for end music playing."
             f"\n7. **/lyrics for searching lyrics.\n\n"
             f"\n📌 **Also you can download music or video with push button menu.**\n"
-            f"\n⚡ __Powered by Demons A.I__\n",
+            f"\n⚡ __Powered by MITTAL BOTS A.I__\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
