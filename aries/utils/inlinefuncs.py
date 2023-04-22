@@ -86,7 +86,7 @@ async def inline_help_func(__help__):
         InlineQueryResultArticle(
             title="Support",
             description="Official Mittal Robot Support.",
-            input_message_content=InputTextMessageContent("https://t.me/demonszxx"),
+            input_message_content=InputTextMessageContent("https://t.me/Mittal_grup_bot"),
             thumb_url="https://telegra.ph/file/8435fa63d98e874f40b4b.jpg",
         ),
     ]
